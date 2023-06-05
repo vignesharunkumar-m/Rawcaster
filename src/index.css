@@ -1,13 +1,56 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --fontRegular: 'DMSans Regular';
+  --fontMedium: 'DMSans Medium';
+  --fontBold: 'DMSans Bold';
+  --dangerColor: #f2718d;
+  --primaryColor: #fed23d;
+  --secondaryColor: #ec9b00;
+  --lightPrimaryColor: #ffca00;
+  --whiteColor: #fff;
+  --hoverColor:#563662;
+  --blackColor:#000;
+  --lowBlackColor:#9ba0aa;
+  --successColor:#2AB95A;
+  --superadminBg:#eceff4;
+  --iconBackground:rgba(236, 155, 0, 0.08);
+  --outlineShadow: rgba(99, 99, 99, 0.2) 0px 2px 6px 0px;
+  --textXs: 14px;
+  --textSm: 16px;
+  --textMd: 20px;
+  --textLg: 24px;
+  --textXl: 26px;
+  --textDefault: 17px;
+  --texth6: 19px;
+  --xlText: 75px;
+  --lgText: 63px;
+  --mdText: 48px;
+  --borderSm: 0.5px solid #bababa;
+  --border: 1px solid #bababa;
+}
+
+@font-face {
+  font-family: 'DMSans Bold';
+  src: url('./Assets/Font/DMSans-Bold.ttf') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans Medium';
+  src: url('./Assets/Font/DMSans-Medium.ttf') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans Regular';
+  src: url('./Assets/Font/DMSans-Regular.ttf') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DMSans Regular';
+  src: url('./Assets/Font/DMSans-Regular.ttf') format('woff');
+  font-display: swap;
 }
